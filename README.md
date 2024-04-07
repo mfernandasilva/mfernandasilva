@@ -34,4 +34,4 @@
 
 [![Linkedin](https://www.linkedin.com/in/maria-fernanda-a390b7228/)](LINK-DO-SEU-LINKEDIN)
 [![Gmail Badge](https://img.shields.io/badge/-seuemail@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:SEU-EMAIL)
-[![GitHub](https://github.com/mfernandasilva)](https://github.com/mfernandasilva)
+[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/mfernandasilva)
