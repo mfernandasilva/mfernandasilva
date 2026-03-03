@@ -8,7 +8,6 @@
       font-size: 28px;
       font-weight: bold;
       fill: #ffffff;
-      filter: drop-shadow(0 0 12px #a855f7);
       overflow: hidden;
       white-space: nowrap;
       border-right: 3px solid #ffffff;
@@ -34,16 +33,16 @@
 
   <foreignObject x="20" y="40" width="560" height="140">
     <div xmlns="http://www.w3.org/1999/xhtml" class="terminal">
-      <div class="tag">&lt;developer&gt;</div>
+      <div class="tag" style="color: white;">&lt;developer&gt;</div>
       <div style="padding-left: 25px; margin-top: 15px; display: flex; align-items: center;">
-        <span class="label">name:</span>
+        <span class="label" style="color: white;">name:</span>
         <div class="typing-name" style="margin-left: 10px; color: white;">Maria Fernanda</div>
       </div>
       <div style="padding-left: 25px; margin-top: 10px; display: flex; align-items: center;">
         <span class="label" style="color: white;">role:</span>
         <div class="typing-role" style="margin-left: 10px; color: white;">Software Engineer Student</div>
       </div>
-      <div class="tag" style="margin-top: 15px;">&lt;/developer&gt;</div>
+      <div class="tag" style="margin-top: 15px; color: white; ">&lt;/developer&gt;</div>
     </div>
   </foreignObject>
 </svg>

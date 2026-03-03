@@ -9,18 +9,6 @@
 
 ---
 
-### GLOBAL TELEMETRY (LIVE STATS)
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mfernandasilva&show_icons=true&theme=visionary&count_private=true&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=ffffff" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfernandasilva&layout=compact&theme=visionary&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=ffffff" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=mfernandasilva&theme=visionary&hide_border=true&stroke=a855f7&fire=a855f7&ring=c084fc" />
-</p>
-
----
-
 ### TECH ECOSYSTEM
 | **Frontend Core** | **Backend & DB** | **DevOps & Tools** | **Management & Agile** |
 | :--- | :--- | :--- | :--- |
@@ -33,13 +21,6 @@
 ### CURRENT ACTIVITY
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mfernandasilva&theme=tokyonight" width="100%"/>
-</p>
-
----
-
-### LAB & CONTRIBUTIONS
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mfernandasilva/mfernandasilva/output/github-contribution-grid-snake.svg" width="100%" alt="Commit Snake Animation" />
 </p>
 
 ---
