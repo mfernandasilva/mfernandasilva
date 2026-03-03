@@ -1,40 +1,136 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 600 200" fill="none">
   <style>
     .terminal { font-family: 'Courier New', Courier, monospace; }
-    .tag { fill: #8b5cf6; font-size: 18px; font-weight: bold; } /* Roxo vibrante */
-    .label { fill: #94a3b8; font-size: 16px; } /* Cinza azulado */
+    .tag { fill: #a855f7; font-size: 18px; font-weight: bold; } /* Roxo das Tags */
+    .label { fill: #e2e8f0; font-size: 16px; } /* Branco acinzentado para os rótulos */
     
     .typing-name {
       font-size: 28px;
       font-weight: bold;
-      fill: #c084fc; /* Lilás brilhante */
-      filter: drop-shadow(0 0 5px #a855f7); /* Efeito Glow */
+      fill: #ffffff; /* FONTE BRANCA */
+      filter: drop-shadow(0 0 8px #a855f7); /* Brilho Roxo no texto branco */
       overflow: hidden;
       white-space: nowrap;
-      border-right: 3px solid #c084fc;
+      border-right: 3px solid #ffffff;
       width: 0;
       animation: typing 2s steps(14) 0.5s forwards, blink 0.8s infinite;
     }
 
     .typing-role {
       font-size: 16px;
-      fill: #e9d5ff; /* Roxo claríssimo */
+      fill: #f8fafc; /* Branco quase puro */
       overflow: hidden;
       white-space: nowrap;
-      border-right: 2px solid #e9d5ff;
+      border-right: 2px solid #a855f7;
       width: 0;
       animation: typing 2.5s steps(25) 2.5s forwards, blink 0.8s infinite;
     }
 
     @keyframes typing { from { width: 0 } to { width: 100% } }
-    @keyframes blink { from, to { border-color: transparent } 50% { border-color: #c084fc } }
+    @keyframes blink { from, to { border-color: transparent } 50% { border-color: #a855f7 } }
   </style>
 
-  <rect width="100%" height="100%" fill="#0d1117" rx="15" stroke="#4c1d95" stroke-width="2"/>
+  <rect width="100%" height="100%" fill="#0d1117" rx="15" stroke="#a855f7" stroke-width="2"/>
 
   <foreignObject x="20" y="40" width="560" height="140">
     <div xmlns="http://www.w3.org/1999/xhtml" class="terminal">
       <div class="tag">&lt;developer&gt;</div>
+      <div style="padding-left: 25px; margin-top: 15px; display: flex; align-items: center;">
+        <span class="label">name:</span>
+        <div class="typing-name" style="margin-left: 10px;">Maria Fernanda</div>
+      </div>
+      <div style="padding-left: 25px; margin-top: 10px; display: flex; align-items: center;">
+        <span class="label">role:</span>
+        <div class="typing-role" style="margin-left: 10px;">Software Engineer Student</div>
+      </div>
+      <div class="tag" style="margin-top: 15px;">&lt;/developer&gt;</div>
+    </div>
+  </foreignObject>
+</svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 600 200" fill="none">
+  <style>
+    .terminal { font-family: 'Courier New', Courier, monospace; }
+    .tag { fill: #a855f7; font-size: 18px; font-weight: bold; } /* Roxo das Tags */
+    .label { fill: #e2e8f0; font-size: 16px; } /* Branco acinzentado para os rótulos */
+    
+    .typing-name {
+      font-size: 28px;
+      font-weight: bold;
+      fill: #ffffff; /* FONTE BRANCA */
+      filter: drop-shadow(0 0 8px #a855f7); /* Brilho Roxo no texto branco */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #ffffff;
+      width: 0;
+      animation: typing 2s steps(14) 0.5s forwards, blink 0.8s infinite;
+    }
+
+    .typing-role {
+      font-size: 16px;
+      fill: #f8fafc; /* Branco quase puro */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #a855f7;
+      width: 0;
+      animation: typing 2.5s steps(25) 2.5s forwards, blink 0.8s infinite;
+    }
+
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { from, to { border-color: transparent } 50% { border-color: #a855f7 } }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0d1117" rx="15" stroke="#a855f7" stroke-width="2"/>
+
+  <foreignObject x="20" y="40" width="560" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="terminal">
+      <div class="tag">&lt;developer&gt;</div><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 600 200" fill="none">
+  <style>
+    .terminal { font-family: 'Courier New', Courier, monospace; }
+    .tag { fill: #a855f7; font-size: 18px; font-weight: bold; } /* Roxo das Tags */
+    .label { fill: #e2e8f0; font-size: 16px; } /* Branco acinzentado para os rótulos */
+    
+    .typing-name {
+      font-size: 28px;
+      font-weight: bold;
+      fill: #ffffff; /* FONTE BRANCA */
+      filter: drop-shadow(0 0 8px #a855f7); /* Brilho Roxo no texto branco */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #ffffff;
+      width: 0;
+      animation: typing 2s steps(14) 0.5s forwards, blink 0.8s infinite;
+    }
+
+    .typing-role {
+      font-size: 16px;
+      fill: #f8fafc; /* Branco quase puro */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #a855f7;
+      width: 0;
+      animation: typing 2.5s steps(25) 2.5s forwards, blink 0.8s infinite;
+    }
+
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { from, to { border-color: transparent } 50% { border-color: #a855f7 } }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0d1117" rx="15" stroke="#a855f7" stroke-width="2"/>
+
+  <foreignObject x="20" y="40" width="560" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="terminal">
+      <div class="tag">&lt;developer&gt;</div>
+      <div style="padding-left: 25px; margin-top: 15px; display: flex; align-items: center;">
+        <span class="label">name:</span>
+        <div class="typing-name" style="margin-left: 10px;">Maria Fernanda</div>
+      </div>
+      <div style="padding-left: 25px; margin-top: 10px; display: flex; align-items: center;">
+        <span class="label">role:</span>
+        <div class="typing-role" style="margin-left: 10px;">Software Engineer Student</div>
+      </div>
+      <div class="tag" style="margin-top: 15px;">&lt;/developer&gt;</div>
+    </div>
+  </foreignObject>
+</svg>
       <div style="padding-left: 25px; margin-top: 15px; display: flex; align-items: center;">
         <span class="label">name:</span>
         <div class="typing-name" style="margin-left: 10px;">Maria Fernanda</div>
