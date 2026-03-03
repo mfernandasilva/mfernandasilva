@@ -1,37 +1,59 @@
-## Sobre mim
+<div align="center">
 
-- 🤔 Explorando novas tecnologias, desenvolvendo soluções de software e focando na experiência do usuário.
-- 🎓 Estudando Engenharia de Software na Jala University.
-- 🌱 Aprendendo mais sobre **Next.js, Java, Supabase** e desenvolvimento de sistemas institucionais.
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Cabeçalho Animado Maria Fernanda" />
+</p>
 
-## Minhas Skills
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Innovating-purple?style=flat-square&logo=visual-studio-code" />
+  <img src="https://img.shields.io/github/last-commit/mfernandasilva/mfernandasilva?style=flat-square&color=A020F0" />
+</p>
 
-**Linguagens e frameworks**
+---
 
-![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=java)
-![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=nextdotjs)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+### GLOBAL TELEMETRY (LIVE STATS)
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=mfernandasilva&show_icons=true&theme=visionary&count_private=true&hide_border=true&title_color=A020F0&text_color=D8BFD8&icon_color=A020F0" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfernandasilva&layout=compact&theme=visionary&hide_border=true&title_color=A020F0&text_color=D8BFD8&icon_color=A020F0" />
+</p>
 
-**Ferramentas e versionamento**
+<p align="center">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=mfernandasilva&theme=visionary&hide_border=true&stroke=A020F0&fire=A020F0" />
+</p>
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-333333?style=flat&logo=intellijidea&logoColor=000000)
-![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
-![ClickUp](https://img.shields.io/badge/-ClickUp-333333?style=flat&logo=clickup&logoColor=7B68EE)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-![Supabase](https://img.shields.io/badge/-Supabase-333333?style=flat&logo=supabase&logoColor=3ECF8E)
+---
 
-## Projetos em destaque
+---
 
-- **Sistema de Gestão Institucional**  
-  Contribuição em funcionalidades de suporte como geração de PDFs, exportação de planilhas Excel, correções de bugs e dashboards financeiros. Tecnologias utilizadas: Java, Next.js, Supabase.
+### TECH ECOSYSTEM
+| **Frontend Core** | **Backend & DB** | **DevOps & Tools** | **Management & Agile** |
+| :--- | :--- | :--- | :--- |
+| <img src="https://skillicons.dev/icons?i=nextjs,html,css" /> | <img src="https://skillicons.dev/icons?i=java,supabase,postgresql" /> | <img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,vscode,idea" /> | <img src="https://skillicons.dev/icons?i=trello,figma,plan" /> |
 
-## Onde me encontrar
+> **Metodologias:** Scrum | Kanban | Gestão Ágil via ClickUp & Trello
+---
 
-[![LinkedIn](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-fernanda-a390b7228/)  
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-006bed?style=flat-square&logo=Gmail&logoColor=white)](mailto:fernandasalomao2002@gmail.com)  
-[![GitHub](https://img.shields.io/github/followers/mfernandasilva?label=follow&style=social)](https://github.com/mfernandasilva)  
-[![Portfólio](https://img.shields.io/badge/-Portf%C3%B3lio-333333?style=flat-square&logo=google-chrome&logoColor=white)](https://mariafernandadev.vercel.app/)
+### CURRENT ACTIVITY
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mfernandasilva&theme=tokyonight" width="100%"/>
+</p>
+
+---
+
+### LAB & CONTRIBUTIONS
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mfernandasilva/mfernandasilva/output/github-contribution-grid-snake.svg" width="100%" alt="Commit Snake Animation" />
+</p>
+
+---
+
+### INTERFACE TERMINAL
+<p align="center">
+  <a href="https://www.linkedin.com/in/maria-fernanda-a390b7228/"><img src="https://img.shields.io/badge/LinkedIn-purple?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:fernandasalomao2002@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://mariafernandadev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=A020F0&height=30&section=footer" />
+
+</div>

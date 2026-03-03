@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 100 220" preserveAspectRatio="none">
+    <style>
+        @keyframes typingMaria { from { width: 0; } to { width: 100%; } }
+        @keyframes typingSE { from { width: 0; } to { width: 100%; } }
+        @keyframes blink { 50% { border-color: transparent; } }
+
+        .wrapper { font-family: 'Courier New', Courier, monospace; }
+        .base { fill: #0d1117; } /* Cor de fundo do GitHub Dark */
+        
+        .grad {
+            stop-color: #A020F0; /* Roxo */
+        }
+        .grad2 {
+            stop-color: #D8BFD8; /* Roxo Claro */
+        }
+
+        .typing-maria {
+            font-size: 30px;
+            font-weight: bold;
+            fill: url(#gradient);
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid #D8BFD8;
+            width: 0;
+            animation: typingMaria 2s steps(14) 0.5s forwards, blink 1s step-end infinite;
+        }
+
+        .typing-se {
+            font-size: 14px;
+            fill: #D8BFD8;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typingSE 2.5s steps(28) 2.5s forwards;
+        }
+
+        .tag-open, .tag-close {
+            font-size: 20px;
+            fill: #586069;
+        }
+    </style>
+    
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop class="grad" offset="0%" />
+            <stop class="grad2" offset="100%" />
+        </linearGradient>
+    </defs>
+
+    <rect class="base" width="100%" height="100%"/>
+
+    <foreignObject x="0" y="50" width="100%" height="150" class="wrapper">
+        <div xmlns="http://www.w3.org/1999/xlink">
+            <div style="padding-left: 20px;">
+                <span class="tag-open">&lt;developer&gt;</span>
+                <div style="padding-left: 20px; color: white;">
+                    <div style="display: flex;">
+                        <span style="color: #6a737d;">name:</span> 
+                        <span class="typing-maria">Maria Fernanda</span>
+                    </div>
+                    <div style="display: flex; margin-top: 5px;">
+                        <span style="color: #6a737d;">role:</span>
+                        <span class="typing-se">Software Engineer Student</span>
+                    </div>
+                </div>
+                <span class="tag-close">&lt;/developer&gt;</span>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
