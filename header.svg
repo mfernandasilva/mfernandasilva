@@ -1,70 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 100 220" preserveAspectRatio="none">
-    <style>
-        @keyframes typingMaria { from { width: 0; } to { width: 100%; } }
-        @keyframes typingSE { from { width: 0; } to { width: 100%; } }
-        @keyframes blink { 50% { border-color: transparent; } }
-
-        .wrapper { font-family: 'Courier New', Courier, monospace; }
-        .base { fill: #0d1117; } /* Cor de fundo do GitHub Dark */
-        
-        .grad {
-            stop-color: #A020F0; /* Roxo */
-        }
-        .grad2 {
-            stop-color: #D8BFD8; /* Roxo Claro */
-        }
-
-        .typing-maria {
-            font-size: 30px;
-            font-weight: bold;
-            fill: url(#gradient);
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid #D8BFD8;
-            width: 0;
-            animation: typingMaria 2s steps(14) 0.5s forwards, blink 1s step-end infinite;
-        }
-
-        .typing-se {
-            font-size: 14px;
-            fill: #D8BFD8;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 0;
-            animation: typingSE 2.5s steps(28) 2.5s forwards;
-        }
-
-        .tag-open, .tag-close {
-            font-size: 20px;
-            fill: #586069;
-        }
-    </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 600 200" fill="none">
+  <style>
+    .terminal { font-family: 'Courier New', Courier, monospace; }
+    .tag { fill: #8b5cf6; font-size: 18px; font-weight: bold; } /* Roxo vibrante */
+    .label { fill: #94a3b8; font-size: 16px; } /* Cinza azulado */
     
-    <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop class="grad" offset="0%" />
-            <stop class="grad2" offset="100%" />
-        </linearGradient>
-    </defs>
+    .typing-name {
+      font-size: 28px;
+      font-weight: bold;
+      fill: #c084fc; /* Lilás brilhante */
+      filter: drop-shadow(0 0 5px #a855f7); /* Efeito Glow */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #c084fc;
+      width: 0;
+      animation: typing 2s steps(14) 0.5s forwards, blink 0.8s infinite;
+    }
 
-    <rect class="base" width="100%" height="100%"/>
+    .typing-role {
+      font-size: 16px;
+      fill: #e9d5ff; /* Roxo claríssimo */
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #e9d5ff;
+      width: 0;
+      animation: typing 2.5s steps(25) 2.5s forwards, blink 0.8s infinite;
+    }
 
-    <foreignObject x="0" y="50" width="100%" height="150" class="wrapper">
-        <div xmlns="http://www.w3.org/1999/xlink">
-            <div style="padding-left: 20px;">
-                <span class="tag-open">&lt;developer&gt;</span>
-                <div style="padding-left: 20px; color: white;">
-                    <div style="display: flex;">
-                        <span style="color: #6a737d;">name:</span> 
-                        <span class="typing-maria">Maria Fernanda</span>
-                    </div>
-                    <div style="display: flex; margin-top: 5px;">
-                        <span style="color: #6a737d;">role:</span>
-                        <span class="typing-se">Software Engineer Student</span>
-                    </div>
-                </div>
-                <span class="tag-close">&lt;/developer&gt;</span>
-            </div>
-        </div>
-    </foreignObject>
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { from, to { border-color: transparent } 50% { border-color: #c084fc } }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0d1117" rx="15" stroke="#4c1d95" stroke-width="2"/>
+
+  <foreignObject x="20" y="40" width="560" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="terminal">
+      <div class="tag">&lt;developer&gt;</div>
+      <div style="padding-left: 25px; margin-top: 15px; display: flex; align-items: center;">
+        <span class="label">name:</span>
+        <div class="typing-name" style="margin-left: 10px;">Maria Fernanda</div>
+      </div>
+      <div style="padding-left: 25px; margin-top: 10px; display: flex; align-items: center;">
+        <span class="label">role:</span>
+        <div class="typing-role" style="margin-left: 10px;">Software Engineer Student</div>
+      </div>
+      <div class="tag" style="margin-top: 15px;">&lt;/developer&gt;</div>
+    </div>
+  </foreignObject>
 </svg>
