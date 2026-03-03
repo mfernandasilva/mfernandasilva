@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header.svg" width="100%" />
+<img src="header.svg" width="100%" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Coding_Future-9333ea?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
@@ -11,8 +11,8 @@
 
 ### GLOBAL TELEMETRY (LIVE STATS)
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mfernandasilva&show_icons=true&theme=visionary&count_private=true&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=e9d5ff" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfernandasilva&layout=compact&theme=visionary&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=e9d5ff" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mfernandasilva&show_icons=true&theme=visionary&count_private=true&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=ffffff" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfernandasilva&layout=compact&theme=visionary&hide_border=true&title_color=a855f7&icon_color=a855f7&text_color=ffffff" />
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 ### TECH ECOSYSTEM
 | **Frontend Core** | **Backend & DB** | **DevOps & Tools** | **Management & Agile** |
 | :--- | :--- | :--- | :--- |
-| <img src="https://skillicons.dev/icons?i=nextjs,html,css,tailwind,react" /> | <img src="https://skillicons.dev/icons?i=java,spring,supabase,postgresql" /> | <img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,vscode,idea" /> | <img src="https://skillicons.dev/icons?i=trello,figma,plan" /> |
+| <img src="https://skillicons.dev/icons?i=nextjs,html,css" /> | <img src="https://skillicons.dev/icons?i=java,spring,supabase,postgresql" /> | <img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,vscode,idea" /> | <img src="https://skillicons.dev/icons?i=trello,figma,plan" /> |
 
 > **Metodologias:** `Scrum` | `Kanban` | `Gestão Ágil via ClickUp & Trello`
 
